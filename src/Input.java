@@ -12,7 +12,7 @@ public class Input {
 
 
     long now =0;
-    long timeInterval=1000*60*60*6; //6 hours
+    long timeInterval=1000*60*60; //1 hours
     boolean oneDay() {
 
         if ((System.currentTimeMillis() - now) / (timeInterval) > 1) {
@@ -67,7 +67,7 @@ public class Input {
 
 
         } else {
-            System.out.println("Must have arguments in format \"Password\" \"Username\" \"Recipient\" \"Email Server\"");
+            System.out.println("Must have arguments in format \"Username\" \"Password\"  \"Recipient\" \"Email Server\"");
 
         }
 
